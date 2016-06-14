@@ -1,0 +1,8 @@
+---
+applications:
+- memory: 8G 
+  instances: 1
+  timeout: 60
+  buildpack: https://github.com/cloudfoundry-community/cppcms-buildpack 
+  env:
+    TC_ID: 1
